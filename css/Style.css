@@ -1,0 +1,74 @@
+nav.menu {
+    background: #acd373;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+
+li {
+    display: inline-block;
+    color: white;
+    list-style: none;
+}
+
+dvi {
+    display: block;
+}
+
+.skyline {
+    color: #9abd67;
+    height: 350px;
+    background: #9abd67 url(../images/siluet.png) repeat-x bottom;
+    background-size: auto 85px;
+}
+
+.skyline > div {
+    text-align: center;
+    padding-top: 125px; 
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+h2 {
+    color: White;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 18px;
+}
+
+.main {
+    direction: rtl;
+    margin-right: 200px;
+}
+
+.about {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15%;
+    direction: ltr;
+    text-align: center;
+    padding-top: 43px;
+    padding-bottom: 20px;
+    
+}
+
+.words {
+    display: inline-block;
+    vertical-align: middle;
+    image-resolution: 25px 30px;
+    width: 60%;
+    direction: ltr;
+    text-align: left;
+    padding: 29px;
+}
+
+.words h1 {
+    color: #black;
+    height: 30px;
+    padding-left: 35px;
+    line-height: 30px;
+}
