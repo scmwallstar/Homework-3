@@ -1,74 +1,57 @@
-nav.menu {
-    background: #acd373;
-    top: 0;
-    width: 100%;
-    color: white;
-}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
 
-li {
-    display: inline-block;
-    color: white;
-    list-style: none;
-}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
 
-dvi {
-    display: block;
-}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
 
-.skyline {
-    color: #9abd67;
-    height: 350px;
-    background: #9abd67 url(../images/siluet.png) repeat-x bottom;
-    background-size: auto 85px;
-}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
 
-.skyline > div {
-    text-align: center;
-    padding-top: 125px; 
+nav.navbar {
+    background-color: #acd373;
+    margin: 0;
+/*    display: inline-block;*/
 }
-
-h1 {
-    color: white;
+.menu {
     text-transform: uppercase;
-    font-size: 24px;
+    color: white;
+    text-align: right;
+    text-decoration: none;
+        
 }
-
-h2 {
-    color: White;
-    font-style: italic;
-    font-size: 14px;
-    margin-top: 18px;
+/*
+.themeat {
+    height: 850px;
 }
-
-.main {
-    direction: rtl;
-    margin-right: 200px;
-}
-
-.about {
-    display: inline-block;
-    vertical-align: middle;
-    width: 15%;
-    direction: ltr;
+*/
+.title {
+    text-transform: uppercase;
     text-align: center;
-    padding-top: 43px;
-    padding-bottom: 20px;
+    background: #9abd67;
+    color: white;
+    
+}
+.skyline {
+    vertical-align: bottom;
     
 }
 
-.words {
-    display: inline-block;
-    vertical-align: middle;
-    image-resolution: 25px 30px;
-    width: 60%;
-    direction: ltr;
-    text-align: left;
-    padding: 29px;
+h1 {
+    font-size: 20px;
+}
+h2 {
+    color: white;
+    font-style: italic;
+    font-size: 13px;
+    margin-top: 18px;
+}
+.arrow {
+    margin-top: 60px;
 }
 
-.words h1 {
-    color: #black;
-    height: 30px;
-    padding-left: 35px;
-    line-height: 30px;
+.themeat {
+    max-width: 700px;
 }
